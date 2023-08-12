@@ -60,6 +60,7 @@ button {
 
 .section-1 {
     background-color: #1F2937;
+    padding: 8px;
 
 }
 
@@ -88,3 +89,41 @@ h1 {
 
 
 
+/** for the 2nd section **/
+
+.square {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 10%;
+}
+
+.info-header {
+    color: black;
+    font-weight: 900;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.subtext {
+    color: black;
+    display: block;
+    width: 150px;
+    padding-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
