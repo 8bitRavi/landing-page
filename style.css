@@ -91,6 +91,10 @@ h1 {
 
 /** for the 2nd section **/
 
+.sub-section-two {
+    padding-bottom: 40px;
+}
+
 .square {
     flex-shrink: 0;
     width: 100px;
@@ -117,13 +121,40 @@ h1 {
 .container {
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
 }
 
 .item {
     display: flex;
-    flex-wrap: wrap;
+
     flex-direction: column;
     align-items: center;
     padding: 32px;
+}
+
+/** SECTION 3 **/
+
+
+.sub-section-three {
+    background-color: lightgrey;
+    height: 300px;
+    padding: 30px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+blockquote {
+    color: black;
+}
+
+blockquote p {
+    font-size: 1.75rem;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+blockquote footer {
+    margin-left: 600px;
+    font-weight: bold;
+    font-size: 1.125rem;
 }
